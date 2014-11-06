@@ -1,6 +1,6 @@
-var margin = {top: 20, right: 20, bottom: 30, left: 40};
+var margin = {top: 0, right: 5, bottom: 10, left: 5};
 var width = 960 - margin.left - margin.right;
-var height = 500 - margin.top - margin.bottom;
+var height = 840 - margin.top - margin.bottom;
 
 var force = d3.layout.force()
   .gravity(0.1)
